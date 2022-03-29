@@ -1,7 +1,7 @@
 window.addEventListener("load", retreiveData);
 
 function retreiveData() {
-    let url = "http://localhost:3000/xampp/htdocs/Day44_API/Classwork/Exercise2/displayAll.php";
+    let url = "http://localhost:3000/Day44_API/Classwork/Exercise2/displayAll.php";
     const request = new XMLHttpRequest();
     request.open("GET", url);
     request.onload = function() {

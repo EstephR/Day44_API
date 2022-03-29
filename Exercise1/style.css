@@ -1,0 +1,30 @@
+.navbar {
+    background: #c5afa4f6 !important;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.container {
+    background: #393E41;
+    width: 50%;
+    height: 30vh;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+    background: #393E41 !important;
+    padding: 20px;
+}
