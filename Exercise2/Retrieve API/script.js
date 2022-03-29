@@ -12,7 +12,7 @@ function retreiveData() {
             document.getElementById("result").innerHTML += `<div class="card m-3" style="width: 18rem;">
             <img src="${value.picture}" class="card-img-top boximage" alt="${value.name}" width="70px" height="180px">
             <div class="card-footer">${value.name}</div>
-            <div class="card-text">Price: EUR ${value.price}</div>
+            <div class="card-text p-2">Price: EUR ${value.price}</div>
             </div>`
         }
     }
